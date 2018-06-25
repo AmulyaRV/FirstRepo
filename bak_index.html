@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>HTML Cheatsheet</title>
+	</head>
+	<body>
+		<a href="blog.html">Go to blog</a>
+		<a href="test.html">Amulya's test</a>
+		<!-- Headings -->
+		<h1>Heading One</h1>
+		<h2>heading two</h2>
+		<h3>Heading three</h3>
+		<h4>heading four</h4>
+		<h5>Heading five</h5>
+		<h6>heading six</h6>
+
+		<!-- Paragraph to get some random paragraph use word "lorem" and enter Tab -->
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud <strong>exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in <em>culpa qui officia deserunt mollit anim id est </em>laborum.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute<a href=" "> irure dolor in reprehenderit in </a>voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<!-- Lists -->
+		<ul>
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</ul>
+		<ol>
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</ol>
+
+		<!-- Tables -->
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Amulya</td>
+					<td>amulya@ss.com</td>
+					<td>32</td>
+				</tr>
+				<tr>
+					<td>Arun</td>
+					<td>aya@ss.com</td>
+					<td>30</td>
+				</tr>
+			</tbody>	
+		</table>
+		<br>
+		<hr>
+		<br>
+
+		<!-- Forms -->
+		<form action="process.php" method="POST">
+			<div>
+				<label>First Name</label>
+				<input type="text" name="first-name" value="Enter your name">
+			</div>
+			<br>
+			<div>
+				<label>Last Name</label>
+				<input type="text" name="last-name" placeholder="Enter your name">
+			</div>
+			<!-- Placeholder : The value will be greyed out and when we type the value it will gone -->
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="email" name="last-name">
+			</div>
+			<br>
+			<div>
+				<label>Message</label>
+				<textarea name="message" placeholder="Enter your text here"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Age</label>
+				<input type="number" name="age" value="30"> 
+			</div>
+			<br>
+			<div>
+				<label>Birthday</label>
+				<input type="date" name="Birthday">
+			</div>
+			<br>
+			<div>
+				<input type="submit" name="submit" value="submit">
+			</div>
+		</form>
+
+		<!-- Button -->
+		<button>Click Me</button>
+		<!-- The above code is not going to do anything since it is out of form tag, inorder to make it working we need to use javascript. This is the reason why html page is static and for an html page to be dynamic it should have javascript within it.-->
+		<!-- Image -->
+		<br>
+		<a href="images/bird.jpg">
+			<img src="images/bird.jpg" alt="Image is loading" width="200" height="200"> 
+			<!-- Image tag is a self tag and it doesnotknow what needs to be done without any attributes. the image is in same folder. Usually way of placing image is in a folder "images" in the same location as that of index.html and provide the path in "src" attribute "alt" attribute is used to display a text when the image takes more time to load or if the image name is wrong or something. Image size can be done but we can do that in css, which is more preferred. We can provide link to this images. Browsers can open up other pages also and not only html pages-->
+		</a>
+		<!-- Quotations -->
+		<blockquote cite = "https://www.amulya.com" >
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</blockquote>
+
+		<!-- Abbrebation -->
+		<p>The <abbr title="World Wide Web">WWW</abbr>is awesome</p>
+
+		<!-- Cite tag -->
+		<p> <cite>HTML Crash Course</cite> by Brad</p>
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
